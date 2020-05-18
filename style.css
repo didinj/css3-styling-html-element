@@ -1,0 +1,176 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+    padding: 5px;
+}
+
+section {
+    border: 2px solid tomato;
+}
+
+h2 {
+    background-color: #e7e7e7;
+}
+
+p {
+    padding: 5px;
+}
+
+p {
+    color: dodgerblue;
+}
+
+
+/* CSS Borders */
+p.borders {
+    border: 1px solid #000000;
+}
+
+p.border-bottom {
+    border-bottom: 1px solid red;
+}
+
+p.border-left {
+    border-left: 2px solid blue;
+    background-color: lightgray;
+}
+
+p.rounded {
+    border: 1px solid lightseagreen;
+    border-radius: 5px;
+}
+
+/* border style */
+
+p.dotted {
+    border-style: dotted;
+}
+
+p.dashed {
+    border-style: dashed;
+}
+
+p.solid {
+    border-style: solid;
+}
+
+p.double {
+    border-style: double;
+}
+
+p.groove {
+    border-style: groove;
+}
+
+p.ridge {
+    border-style: ridge;
+}
+
+p.inset {
+    border-style: inset;
+}
+
+p.outset {
+    border-style: outset;
+}
+
+p.none {
+    border-style: none;
+}
+
+p.hidden {
+    border-style: hidden;
+}
+
+/* CSS Fonts */
+
+p.monospace {
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+p.monospace-italic {
+    font-family: "Lucida Console", Courier, monospace;
+    font-style: italic;
+}
+
+/* CSS font-weight and font-size */
+p.thick {
+    font-weight: 600;
+}
+
+p.size-32 {
+    font-size: 32px;
+}
+
+/* CSS Margins */
+p.m-individual-sides {
+    margin-top: 80px;
+    margin-right: 100px;
+    margin-bottom: 150px;
+    margin-left: 100px;
+}
+
+p.m-shorthand {
+    background-color: lightgray;
+    margin: 80px 100px 150px 100px;
+}
+
+p.m-two-values {
+    color: #000000;
+    background-color: tomato;
+    margin: 25px 50px;
+}
+
+p.m-one-values {
+    color: #000000;
+    background-color: tomato;
+    margin: 50px;
+}
+
+/* CSS Padding */
+p.p-individual-sides {
+    padding-top: 80px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+}
+
+p.p-shorthand {
+    background-color: lightgray;
+    padding: 80px 100px 50px 100px;
+}
+
+p.p-two-values {
+    color: #000000;
+    background-color: tomato;
+    padding: 25px 50px;
+}
+
+p.p-one-values {
+    color: #000000;
+    background-color: tomato;
+    padding: 50px;
+}
+
+/* CSS Height and Width */
+
+p.w-100 {
+    color: #000000;
+    width: 100%;
+}
+
+p.hw-example {
+    color: #000000;
+    background-color: aliceblue;
+    width: 500px;
+    height: 100px;
+}
+
+p.mw-200 {
+    color: #000000;
+    background-color: aliceblue;
+    max-width: 200px;
+    height: 100px;
+}
